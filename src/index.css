@@ -1,0 +1,58 @@
+/*------------------
+    RESET
+-------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------
+      GENERAL
+  -------------------*/
+.container {
+  max-width: 30rem;
+  margin: auto;
+  padding: 1.25rem 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+/*------------------
+      TOP BAR
+  -------------------*/
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.total-number {
+  background-color: #dedede;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/*------------------
+      NUMBERS LIST
+  -------------------*/
+.numbers-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0.625rem;
+}
+.number {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: coral;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
